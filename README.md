@@ -2,7 +2,7 @@
 # About:
 * A partially filled 9*9 2D array 'grid[9][9]' will be given, the goal is to assign digits (from 1 to 9) to the empty cells so that every row, column, and subgrid of size 3 *3 contains exactly one instance of the digits from 1 to 9.<br>
 # Implementation
-* <b>Approach-1: | [CODE SNIPPET]()</b>
+* <b>Approach-1: | [CODE SNIPPET](https://github.com/Kranthi-Guribilli/Sudoku-Solver-C/blob/main/Sudoku1.c)</b>
   <i>
   * The naive approach is to generate all possible configurations of numbers from 1 to 9 to fill the empty cells.
   * Try every configuration one by one until the correct configuration is found, i.e. for every unassigned position fill the position with a number from 1 to 9.

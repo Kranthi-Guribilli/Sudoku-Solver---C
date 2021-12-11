@@ -5,11 +5,12 @@
 
 //A utility function to print grid
 void print(int arr[N][N]){
-	for(int i=0;i<N;i++){
-		for(int j=0;j<N;j++){
-			printf("%d ",arr[i][j]);
-		}
-		printf("\n");
+	printf("+-----+-----+-----+\n");
+	for(int row=0;row<N;row++){
+		for(int col=0;col<N;col++)
+			printf("|%d",arr[row][col]);
+		printf("|\n");
+		if((row+1)%3==0)printf("+-----+-----+-----+\n");
 	}
 }
 

@@ -8,7 +8,7 @@
   * Try every configuration one by one until the correct configuration is found, i.e. for every unassigned position fill the position with a number from 1 to 9.
   * After filling all the unassigned position check if the matrix is safe or not. If safe print else recurs for other cases.</i>
   
-* <b>Approach-2: | Backtracking | [CODE SNIPPET](https://github.com/Kranthi-Guribilli/Sudoku-Solver-C/blob/main/Sudoku|Backtracking.cpp)</b>
+* <b>Approach-2: | Backtracking | CODE SNIPPET([C](https://github.com/Kranthi-Guribilli/Sudoku-Solver-C/blob/main/Sudoku|Backtracking.c)</b>|[C++](https://github.com/Kranthi-Guribilli/Sudoku-Solver-C/blob/main/Sudoku|Backtracking.cpp))
   <i>
   * Sudoku can be solved by one by one assigning numbers to empty cells. Before assigning a number, check whether it is safe to assign.
   * Check that the same number is not present in the current row, current column and current 3X3 subgrid.

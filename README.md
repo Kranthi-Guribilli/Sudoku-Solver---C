@@ -1,7 +1,7 @@
 # Sudoku Solver:
 # About:
 * A partially filled 9*9 2D array 'grid[9][9]' will be given, the goal is to assign digits (from 1 to 9) to the empty cells so that every row, column, and subgrid of size 3 *3 contains exactly one instance of the digits from 1 to 9.<br>
-# [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Kranthi-Guribilli/Sudoku-Solver-C)
+# [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](gitpod.io/#https://github.com/Kranthi-Guribilli/Sudoku-Solver-C)
 
 # Implementation
 * <b>Approach-1: | [CODE SNIPPET](https://github.com/Kranthi-Guribilli/Sudoku-Solver-C/blob/main/Sudoku|Approach1.c)</b>
